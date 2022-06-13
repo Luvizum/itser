@@ -14,7 +14,7 @@ namespace TelegramBotExperiments
     class Program
     {
         MessageHandler messageHandler = new MessageHandler();
-        static ITelegramBotClient bot = new TelegramBotClient("5030358824:AAGj-FAbXZ8-7zsO7OWnM3T7DFjk3qgpKL4");
+        static ITelegramBotClient bot = new TelegramBotClient("Тут должен быть токен");
 
         public static async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
         {
